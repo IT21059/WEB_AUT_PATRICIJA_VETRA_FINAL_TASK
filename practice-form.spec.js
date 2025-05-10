@@ -2,16 +2,16 @@ import PracticeFormPage from '../support/pages/PracticeFormPage'
 
 describe('DemoQA Practice Form', () => {
   const testUser = {
-    firstName: 'Test',
-    lastName: 'User',
-    email: 'test.user@example.com',
-    gender: 'Male',
-    mobile: '1234567890',
+    firstName: 'Patricija',
+    lastName: 'Vetra',
+    email: 'patricija.vetra@gmail.com',
+    gender: 'Female',
+    mobile: '26687499',
     dob: { day: '28', month: 'February', year: '1930' },
     subjects: 'Economics',
     hobbies: 'Music',
     picture: 'test-image.jpg',
-    address: '123 Main Street, Test City',
+    address: 'Valmiera',
     state: 'NCR',
     city: 'Delhi'
   }
